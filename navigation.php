@@ -10,35 +10,36 @@ return [
             'Custom 404 Page' => 'docs/custom-404-page',
         ],
     ],
-    'Estilos' => [
-        'url' => 'docs/estilos',
+    'Styles' => [
+        'url' => 'docs/styles',
         'children' => [
-            'Colores' => 'docs/components/colores'
-            'Tipografía' => 'docs/components/tipografia'
+            'Colours' => 'docs/styles/colours',
+            'Typography' => 'docs/styles/typography',
+            'Layout & Grid' => 'docs/styles/layout-grid',
         ]
     ],
-    'Componentes' => [
-        'url' => 'docs/componentes',
+    'Components' => [
+        'url' => 'docs/components',
         'children' => [
-            'Inputs para filtros' => 'docs/componentes/inputs-filtros'
-            'Formularios' => 'docs/componentes/formularios'
-            'Botones' => 'docs/componentes/botones'
-            'Tablas' => 'docs/componentes/tablas'
-            'Modales' => 'docs/componentes/modales'
-            'Autentificación' => 'docs/componentes/autentificacion',
-            'Alertas' => 'docs/componentes/alertas',
-            'Placeholders' => 'docs/componentes/placeholders',
-            'Navegación' => 'docs/componentes/navegacion',
-            'Contenedores' => 'docs/componentes/contenedores',
-            'Vizualización de datos' => 'docs/componentes/visualizacion-de-pagos',
+            'Inputs for filters' => 'docs/components/inputs-filters',
+            'Forms' => 'docs/components/forms',
+            'Buttons' => 'docs/components/buttons',
+            'Tables' => 'docs/components/tables',
+            'Modals' => 'docs/components/modals',
+            'Authentication' => 'docs/components/authentication',
+            'Alerts' => 'docs/components/alerts',
+            'Placeholders' => 'docs/components/placeholders',
+            'Navigation' => 'docs/components/navigation',
+            'Containers' => 'docs/components/containers',
+            'Data visualization' => 'docs/components/data-visualization',
         ]
     ],
-    'Íconos e ilustraciones' => [
-        'url' => 'docs/graficos',
+    'Icons & Illustrations' => [
+        'url' => 'docs/graphics',
         'children' => [
-            'Íconos' => 'docs/graficos/iconos'
-            'Logos' => 'docs/graficos/logos'
-            'Ilustraciones' => 'docs/graficos/ilustraciones'
+            'Icons' => 'docs/graphics/icons',
+            'Logos' => 'docs/graphics/logos',
+            'Illustrations' => 'docs/graphics/illustrations',
         ]
     ],
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
