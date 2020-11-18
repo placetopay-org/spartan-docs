@@ -1,17 +1,17 @@
 ---
-title: Buttons
-description: Buttons library
+title: Typography
+description: Typography library
 extends: _layouts.documentation
 section: content
 ---
 
-# Buttons {#buttons}
+# Typography {#typography .text-3xl .font-semibold .mb-5}
 
-This content for components buttons
+Panel implements as INTER typography and provides a set of typographic styles for a particular purpose. These styles are assigned as much as possible to functional roles so you know when each can be used.
 
 @component('_partials.iframe', ["height" => "114px;"])
 <div class="px-4 py-8 bg-white">
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
+    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
         <button class="btn btn-dark" type="button">
             Button
         </button>
@@ -23,42 +23,4 @@ This content for components buttons
 <button class="btn btn-dark" type="button">
     Button asdsad
 </button>
-```
-
-# Text input {#text-input}
-
-This content for components input
-
-@component('_partials.iframe', ["height" => "114px;"])
-<div class="px-4 py-8 bg-white">
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
-        <input type="email" class="form-input mt-1 block w-full" placeholder="john@example.com">
-    </div>
-</div>
-@endcomponent
-
-```html
-<input type="email" class="form-input mt-1 block w-full" placeholder="john@example.com">
-```
-
-# Text Area {#text-area}
-
-This content for components textarea
-
-@component('_partials.iframe', ["height" => "114px;"])
-<div class="px-4 py-8 bg-white">
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
-        <label class="block">F
-            <span class="text-gray-700">Textarea</span>
-            <textarea class="form-textarea mt-1 block w-full" rows="3" placeholder="Enter some long form content."></textarea>
-        </label>
-    </div>
-</div>
-@endcomponent
-
-```html
-<label class="block">
-  <span class="text-gray-700">Textarea</span>
-  <textarea class="form-textarea mt-1 block w-full" rows="3" placeholder="Enter some long form content."></textarea>
-</label>
 ```

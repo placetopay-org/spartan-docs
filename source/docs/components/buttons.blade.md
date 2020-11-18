@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Buttons {#buttons .text-3xl .font-semibold}
+# Buttons {#buttons .text-3xl .font-semibold .my-5}
 This content for components buttons
 
 ## Simple {.text-2xl .font-semibold .my-5}
