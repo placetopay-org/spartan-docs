@@ -17,7 +17,7 @@ module.exports = {
   },
   theme: {
     extend: {
-      fontFamily: {
+      /* fontFamily: {
         sans: [
           'Nunito Sans'
         ],
@@ -28,7 +28,7 @@ module.exports = {
       lineHeight: {
         normal: '1.6',
         loose: '1.75',
-      },
+      }, */
       maxWidth: {
         none: 'none',
         '7xl': '80rem',
