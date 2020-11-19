@@ -21,9 +21,10 @@ return [
     'Components' => [
         'url' => 'docs/components',
         'children' => [
-            'Inputs for filters' => 'docs/components/inputs-filters',
-            'Forms' => 'docs/components/forms',
             'Buttons' => 'docs/components/buttons',
+            'Inputs' => 'docs/components/inputs',
+            'Input Groups' => 'docs/components/input-groups',
+            'Inputs for filters' => 'docs/components/inputs-filters',
             'Tables' => 'docs/components/tables',
             'Modals' => 'docs/components/modals',
             'Authentication' => 'docs/components/authentication',
