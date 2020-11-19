@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'baseUrl' => 'https://placetopay-org.github.io/spartan-docs/',
     'production' => true,
+    'assetsPrefix' => '/spartan-docs',
 
     // DocSearch credentials
     'docsearchApiKey' => '',

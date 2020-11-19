@@ -12,6 +12,23 @@ module.exports = {
     variants: {
 
     },
+    purge: {
+        content: [
+            './source/**/*.html',
+            './source/**/*.js',
+            './source/**/*.jsx',
+            './source/**/*.ts',
+            './source/**/*.tsx',
+            './source/**/*.php',
+            './source/**/*.vue',
+            './source/**/*.twig',
+            './source/**/*.md',
+        ],
+        options: {
+            defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
+            whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
+        },
+    },
     plugins: [plugin(function ({ addComponents, theme }) {
 
     })]
