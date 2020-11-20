@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'Getting Started' => [
+    /*'Getting Started' => [
         'url' => 'docs/getting-started',
         'children' => [
             'Customizing Your Site' => 'docs/customizing-your-site',
@@ -9,7 +9,7 @@ return [
             'Algolia DocSearch' => 'docs/algolia-docsearch',
             'Custom 404 Page' => 'docs/custom-404-page',
         ],
-    ],
+    ],*/
     'Styles' => [
         'url' => 'docs/styles',
         'children' => [
@@ -43,5 +43,5 @@ return [
             'Illustrations' => 'docs/graphics/illustrations',
         ]
     ],
-    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
+    //'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 ];

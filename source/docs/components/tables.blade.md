@@ -1,11 +1,11 @@
 ---
-title: Alerts
-description: Alerts library
+title: Tables
+description: Tables library
 extends: _layouts.documentation
 section: content
 ---
 
-# Alerts {#alerts}
+# Tables {#tables}
 
 <div class="w-auto max-w-sm m-auto">
 <img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">

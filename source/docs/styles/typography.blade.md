@@ -9,7 +9,12 @@ section: content
 
 Panel implements as INTER typography and provides a set of typographic styles for a particular purpose. These styles are assigned as much as possible to functional roles so you know when each can be used.
 
-@component('_partials.iframe', ["height" => "114px;"])
+<div class="w-auto max-w-sm m-auto">
+<img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">
+<p class="text-center text-5xl font-medium">Under construction</p>
+</div>
+
+<!--@component('_partials.iframe', ["height" => "114px;"])
 <div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
         <button class="btn btn-dark" type="button">
@@ -24,3 +29,4 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     Button asdsad
 </button>
 ```
+-->
