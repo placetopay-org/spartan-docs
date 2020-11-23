@@ -5,6 +5,7 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
+    'asset_prefix' => '',
     'siteName' => 'Docs Starter Template',
     'siteDescription' => 'Beautiful docs powered by Jigsaw',
 

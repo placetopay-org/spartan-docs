@@ -5,7 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="{{ mix('css/components.css', 'assets/build') }}">
+<link rel="stylesheet" href="{{ url(mix('css/components.css', 'assets/build')) }}">
 
 <body class="antialiased font-sans bg-gray-100">
     <div class="" style="">
