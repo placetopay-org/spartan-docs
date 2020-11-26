@@ -41,6 +41,41 @@ section: content
     <textarea id="description" name="description" class="form-input mt-1" rows="3" placeholder="Enter some long form content."></textarea>
 ```
 
+## Password {#password}
+
+@component('_partials.iframe', ["height" => "180px;"])
+<div class="px-4 py-8 bg-white">
+    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
+        <div>
+            <label for="password" class="form-label">Password</label>
+            <input id="password" name="password" class="form-input mt-1" type="password" >
+        </div>
+    </div>
+</div>
+@endcomponent
+
+
+
+<!-- 
+## Password with error {#password-error}
+
+@component('_partials.iframe', ["height" => "180px;"])
+<div class="px-4 py-8 bg-white">
+    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
+        <div>
+            <label for="password" class="form-label">Password</label>
+            <input id="password" name="password" class="form-input mt-1 has-error" type="password" >
+            <p class="form-input-error">This field is required.</p>
+        </div>
+    </div>
+</div>
+@endcomponent
+
+```html
+    <label for="password" class="form-label">Password</label>
+    <input id="password" name="password" class="form-input mt-1" type="password" >
+```
+-->
 
 ## Radio button {#radio-button}
 
