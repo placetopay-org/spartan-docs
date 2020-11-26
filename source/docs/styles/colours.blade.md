@@ -14,61 +14,61 @@ Color is a very important element of visual communication and therefore of our d
 Cold neutral grays are used to establish a more attractive modern interface, use dark range for text and light for backgrounds
 
 <div class="flex flex-wrap -mx-3 overflow-hidden">
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-900"></div>
 <p class="font-semibold text-lg">Gray 900</p>
 <p>#1A202E</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-800"></div>
 <p class="font-semibold text-lg">Gray 800</p>
 <p>#27303F</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-700"></div>
 <p class="font-semibold text-lg">Gray 700</p>
 <p>#364152</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-600"></div>
 <p class="font-semibold text-lg">Gray 600</p>
 <p>#475569</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-500"></div>
 <p class="font-semibold text-lg">Gray 500</p>
 <p>#64748B</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-400"></div>
 <p class="font-semibold text-lg">Gray 400</p>
 <p>#97A6BA</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-300"></div>
 <p class="font-semibold text-lg">Gray 300</p>
 <p>#CFD8E3</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-200"></div>
 <p class="font-semibold text-lg">Gray 200</p>
 <p>#E2E8F0</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-100"></div>
 <p class="font-semibold text-lg">Gray 100</p>
 <p>#F1F5F9</p>
 </div>
 
-<div class="my-3 px-3 w-1/5 overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
+<div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
 <div class="color-box bg-gray-50"></div>
 <p class="font-semibold text-lg">Gray 50</p>
 <p>#FBFDFE</p>
