@@ -6,8 +6,8 @@ return [
     'baseUrl' => '',
     'production' => false,
     'asset_prefix' => '',
-    'siteName' => 'Docs Starter Template',
-    'siteDescription' => 'Beautiful docs powered by Jigsaw',
+    'siteName' => 'Get Starter With Spartan',
+    'siteDescription' => 'An end-to-end system',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',
