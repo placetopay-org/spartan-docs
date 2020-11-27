@@ -7,7 +7,7 @@ section: content
 
 # Alerts {#alerts}
 
-## Alert statuses
+## Alert statuses {#alerts-statuses}
 
 The colors will reinforce the central idea of ​​alert home.
 
@@ -18,7 +18,7 @@ The colors will reinforce the central idea of ​​alert home.
 </div>
 -->
 
-### Success
+### Success 
 
 @component('_partials.iframe', ["height" => "114px;"])
 <div class="px-4 py-8 bg-white">

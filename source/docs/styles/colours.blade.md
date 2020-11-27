@@ -5,11 +5,11 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Color palette panel {#colours .text-3xl .font-semibold .mb-5}
+# Color palette panel {#colours}
 
 Color is a very important element of visual communication and therefore of our design system. Proper implementation is important for maintaining visual constancy.
 
-## Simple {.text-2xl .font-semibold .my-5}
+## Simple {#colours-simple}
 
 Cold neutral grays are used to establish a more attractive modern interface, use dark range for text and light for backgrounds
 
@@ -75,7 +75,7 @@ Cold neutral grays are used to establish a more attractive modern interface, use
 </div>
 </div>
 
-## Notifications {.text-2xl .font-semibold .my-5}
+## Notifications {#colours-Notifications}
 
 Support color palette for notifications
 

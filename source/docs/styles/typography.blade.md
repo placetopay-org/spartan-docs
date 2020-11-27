@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Typography
+# Typography {#typography}
 
 Panel implements as INTER typography and provides a set of typographic styles for a particular purpose. These styles are assigned as much as possible to functional roles so you know when each can be used.
 
@@ -42,13 +42,13 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     </table>
 </div>
 
-## Headings
+## Headings {#headings}
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-bold text-2xl text-gray-800 p-0 m-0">Merchants</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H1</p>
         <p class="text-sm text-justify m-0">It is commonly used for large H1 titles to place a strong emphasis on bold typography. Inter typography 24 px Bold</p>
     </div>
@@ -58,7 +58,7 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-medium text-base text-gray-700 p-0 m-0">Dashboard</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H2</p>
         <p class="text-sm text-justify m-0">Used for the main buttons in the menu Inter typography 16 px Medium</p>
     </div>
@@ -68,7 +68,7 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-normal text-base text-gray-400 p-0 m-0">Sites</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H3</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu Inter typography 16 px Regular</p>
     </div>
@@ -78,7 +78,7 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-normal text-sm text-gray-400 p-0 m-0">Configuration | Merchants</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H4</p>
         <p class="text-sm text-justify m-0">It is commonly used for subtitles and table fields Inter typography 14 px Regular</p>
     </div>
@@ -88,7 +88,7 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-bold text-xs text-gray-800 p-0 m-0">Name</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H5</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu Inter typography 16 px Regular</p>
     </div>
@@ -98,19 +98,19 @@ Panel implements as INTER typography and provides a set of typographic styles fo
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
         <h1 class="font-normal text-sm text-gray-500 p-0 m-0">Evertec Medellín</h1>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H5</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu Inter typography 16 px Regular</p>
     </div>
 </div>
 
-## Paragraphs
+## Paragraphs {#paragraphs}
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-50 p-5 h-full w-full sm:w-1/2 md:w-1/2">
         <p class="font-normal text-sm text-gray-500 p-0 m-0 text-justify">Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. </p>
     </div>
-    <div class="ml-6 w-full sm:w-1/2 lg:w-1/2">
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H5</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu Inter typography 16 px Regular</p>
     </div>
