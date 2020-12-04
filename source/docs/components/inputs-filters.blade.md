@@ -7,6 +7,11 @@ section: content
 
 # Input for filters {#input-filters}
 
+The inputs are used for data entry.
+Text field states should be clear and must follow the design specifications to maintain consistency in all our products.
+
+The following components are for filter use.
+
 <div class="w-auto max-w-sm m-auto">
 <img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">
 <p class="text-center text-5xl font-medium">Under construction</p>

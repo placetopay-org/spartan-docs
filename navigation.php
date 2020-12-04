@@ -4,9 +4,9 @@ return [
     'Styles' => [
         'url' => 'docs/styles',
         'children' => [
-            'Colours' => 'docs/styles/colours',
+            'Color system' => 'docs/styles/color-system',
             'Typography' => 'docs/styles/typography',
-            'Layout & Grid' => 'docs/styles/layout-grid',
+            'Grid' => 'docs/styles/grid',
         ]
     ],
     'Components' => [
@@ -23,7 +23,7 @@ return [
             'Placeholders' => 'docs/components/placeholders',
             'Navigation' => 'docs/components/navigation',
             'Containers' => 'docs/components/containers',
-            'Data visualization' => 'docs/components/data-visualization',
+            'Data display' => 'docs/components/data-display',
         ]
     ],
     'Icons & Illustrations' => [

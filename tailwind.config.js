@@ -1,4 +1,7 @@
 module.exports = {
+  presets: [
+    require('@placetopay/spartan')
+  ],
   purge: {
     content: [
       'source/**/*.html',

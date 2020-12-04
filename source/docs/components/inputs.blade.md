@@ -54,7 +54,10 @@ section: content
 </div>
 @endcomponent
 
-
+```html
+<label for="password" class="form-label">Password</label>
+<input id="password" name="password" class="form-input mt-1" type="password" >
+```
 
 <!-- 
 ## Password with error {#password-error}
@@ -84,14 +87,12 @@ section: content
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div>
             <span>Notification Channel</span>
-            
             <div class="mt-2">
                 <label for="notifications" class="inline-flex items-center">
                     <input type="radio" class="form-radio" name="notifications" value="mail" checked>
                     <span class="ml-2">Mail</span>
                 </label>
             </div>
-            
             <div>
                 <label for="notifications" class="inline-flex items-center">
                     <input type="radio" class="form-radio" name="notifications" value="sms">
