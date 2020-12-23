@@ -7,21 +7,39 @@ section: content
 
 # Placeholders {#placeholders}
 
-<div class="w-auto max-w-sm m-auto">
-<img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">
-<p class="text-center text-5xl font-medium">Under construction</p>
-</div>
+The implemented placeholders are described below.
 
-<!--
-@component('_partials.iframe', ["height" => "114px;"])
-<div class="px-4 py-8 bg-white">
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
-        //Alerts
+## Avatar {#avatar}
+
+Implemented in the top bar of the dashboard, or applications that have access to a user profile
+
+<div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
+    <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
+        <img alt="illustration" src="/assets/images/Avatar.png" class="m-auto block">
+    </div>
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
+        <p class="font-bold text-lg m-0">Avatar</p>
+        <p class="font-medium m-0">Size: <span class="font-normal">32 x 32px </span></p>
     </div>
 </div>
-@endcomponent
 
-```html
+<div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
+    <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
+        <img alt="illustration" src="/assets/images/Avatar_Default.svg" class="m-auto block">
+    </div>
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
+        <p class="font-bold text-lg m-0">Default</p>
+        <p class="font-medium m-0">Size: <span class="font-normal">With icon</span></p>
+    </div>
+</div>
 
-```
--->
+
+<div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
+    <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
+        <img alt="illustration" src="/assets/images/Avatar_Default Type.svg" class="m-auto block">
+    </div>
+    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
+        <p class="font-bold text-lg m-0">Default</p>
+        <p class="font-medium m-0"><span class="font-normal">With typography</span></p>
+    </div>
+</div>

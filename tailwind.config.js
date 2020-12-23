@@ -1,4 +1,7 @@
 module.exports = {
+  presets: [
+    require('@placetopay/spartan')
+  ],
   purge: {
     content: [
       'source/**/*.html',
@@ -29,6 +32,20 @@ module.exports = {
         normal: '1.6',
         loose: '1.75',
       }, */
+      colors: {
+        gray: {
+            '50': '#f8fafc',
+            '100': '#f1f5f9',
+            '200': '#e2e8f0',
+            '300': '#cfd8e3',
+            '400': '#97a6ba',
+            '500': '#64748b',
+            '600': '#475569',
+            '700': '#364152',
+            '800': '#27303f',
+            '900': '#1a202e',
+        }
+      },
       maxWidth: {
         none: 'none',
         '7xl': '80rem',

@@ -1,11 +1,11 @@
 ---
-title: Data visualization
+title: Data display
 description: Data visualization library
 extends: _layouts.documentation
 section: content
 ---
 
-# Data visualization {#data-visualization}
+# Data display {#data-display}
 
 <div class="w-auto max-w-sm m-auto">
 <img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">

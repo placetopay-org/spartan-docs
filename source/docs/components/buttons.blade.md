@@ -7,6 +7,8 @@ section: content
 
 # Buttons {#buttons}
 
+Are clickable items used to allows the user take actions or make choices. Each variation has a purpose and an intention (hover, focus, active, selected, disabled) and suggest the ability to interact with an asset with a single tap. Are used in modals, forms and many other components.
+
 ## Dark {#dark}
 
 @component('_partials.iframe', ["height" => "114px;"])
