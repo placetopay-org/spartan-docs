@@ -50,6 +50,7 @@ The header of the modal must be clear with the action that it will carry out and
             </div>
         </div>
     @endcomponent-->
+    @component('_partials.iframe', ["height" => "500px;"], ["width" => "100%"] )
     <div class="rounded-md border-2 border-gray-200 p-3 h-full w-full">
         <div class="m-auto w-3/5 block p-4 bg-white rounded-md shadow relative">
             <button class="absolute right-0 top-0 m-3 hover:opacity-50"><img src="/assets/images/close.svg" alt="close button"></button>
@@ -62,6 +63,7 @@ The header of the modal must be clear with the action that it will carry out and
             </div>
         </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">Structure</p>
         <p class="font-medium text-sm">Icon: <span class="font-normal">Located at the top, implemented to give dynamism to the design. This design should reinforce the action that the user will perform.<br>Color: CoolGray700 </span></p>

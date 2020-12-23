@@ -23,7 +23,6 @@ PlacetoPay logo aligned to the center
 Space for the container either for login, registration, password change etc.
 
 @component('_partials.iframe', ["height" => "600px;"])
-<div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
             <div class="flex flex-col sm:flex-row justify-end">
@@ -40,7 +39,6 @@ Space for the container either for login, registration, password change etc.
             </div>  
         </div>
     </div>
-</div>
 @endcomponent
 
 
@@ -68,7 +66,6 @@ Space for the container either for login, registration, password change etc.
 Seeks to confirm the identity of the user.
 
 @component('_partials.iframe', ["height" => "600px;"])
-<div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
             <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
@@ -90,7 +87,6 @@ Seeks to confirm the identity of the user.
             </div>
         </div>
     </div>
-</div>
 @endcomponent
 
 
@@ -123,7 +119,6 @@ Seeks to confirm the identity of the user.
 Designed for change your password for security reasons or reset it if you forget it.
 
 @component('_partials.iframe', ["height" => "600px;"])
-<div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
             <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
@@ -143,7 +138,6 @@ Designed for change your password for security reasons or reset it if you forget
             </div>
         </div>
     </div>
-</div>
 @endcomponent
 
 ```html
@@ -173,7 +167,6 @@ Designed for change your password for security reasons or reset it if you forget
 Remember that not everyone using has an account from the start. Lets Make sure to explain how register and sign up.
 
 @component('_partials.iframe', ["height" => "600px;"])
-<div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
             <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
@@ -197,7 +190,6 @@ Remember that not everyone using has an account from the start. Lets Make sure t
             </div>
         </div>
     </div>
-</div>
 @endcomponent
 
 
@@ -232,7 +224,6 @@ Remember that not everyone using has an account from the start. Lets Make sure t
 They are the best tool we have to improve our understanding of what is required.
 
 @component('_partials.iframe', ["height" => "600px;"])
-<div class="px-4 py-8 bg-white">
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
             <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
@@ -270,7 +261,6 @@ They are the best tool we have to improve our understanding of what is required.
             </div>
         </div>
     </div>
-</div>
 @endcomponent
 
 

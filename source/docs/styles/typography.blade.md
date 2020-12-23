@@ -52,95 +52,135 @@ Keeping just one font family and the right hierarchies proportionate clarity and
 ## Headings {#headings}
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-bold text-2xl text-gray-800 p-0 m-0">Merchants</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h1 class="font-bold text-2xl text-gray-800 p-0 m-0">Merchants</h1>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H1</p>
         <p class="text-sm text-justify m-0">Commonly used for large H1 headlines to put a strong emphasis on bold typeface.<br>Type Inter | 24 px | Bold</p>
     </div>
 </div>
+``` html
+<h1 class="font-bold text-2xl text-gray-800 p-0 m-0">Merchants</h1>
+```
+
+<hr>
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-medium text-base text-gray-700 p-0 m-0">Dashboard</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h2 class="font-medium text-base text-gray-700 p-0 m-0">Dashboard</h2>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H2</p>
         <p class="text-sm text-justify m-0">Used for the main buttons in the menu<br>Type Inter | 16 px | Medium</p>
     </div>
 </div>
+``` html
+<h2 class="font-medium text-base text-gray-700 p-0 m-0">Dashboard</h2>
+```
+
+<hr>
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-normal text-base text-gray-400 p-0 m-0">Sites</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h3 class="font-normal text-base text-gray-400 p-0 m-0">Sites</h3>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H3</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu<br>Type Inter | 16 px | Regular</p>
     </div>
 </div>
+``` html
+<h3 class="font-normal text-base text-gray-400 p-0 m-0">Sites</h3>
+```
+
+<hr>
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-normal text-sm text-gray-400 p-0 m-0">Configuration | Merchants</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h4 class="font-normal text-sm text-gray-400 p-0 m-0">Configuration | Merchants</h4>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H4</p>
         <p class="text-sm text-justify m-0">Commonly used for captions and table fields<br>Type Inter | 14 px | Regular</p>
     </div>
 </div>
+``` html
+<h4 class="font-normal text-sm text-gray-400 p-0 m-0">Configuration | Merchants</h4>
+```
+
+<hr>
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-bold text-xs text-gray-800 p-0 m-0">NAME</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h5 class="font-bold text-xs text-gray-800 p-0 m-0">NAME</h5>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H5</p>
         <p class="text-sm text-justify m-0">Used for secondary buttons in the menu<br>Type Inter | 12 px | Bold</p>
     </div>
 </div>
+``` html
+<h5 class="font-bold text-xs text-gray-800 p-0 m-0">NAME</h5>
+```
+
+<hr>
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2 text-center ">
-        <h1 class="font-normal text-sm text-gray-500 p-0 m-0">Evertec Medellín</h1>
+    @component('_partials.iframe', ["height" => "114px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <h6 class="font-normal text-sm text-gray-500 p-0 m-0">Evertec Medellín</h6>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">H6</p>
         <p class="text-sm text-justify m-0">Used for fill the tables<br>Type Inter | 14 px | Regular</p>
     </div>
 </div>
+``` html
+<h6 class="font-normal text-sm text-gray-500 p-0 m-0">Evertec Medellín</h6>
+```
 
 <hr>
 
 ## Paragraphs {#paragraphs}
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2">
-        <p class="font-normal text-sm text-gray-500 p-0 m-0 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, amet et elementum, egestas diam ut convallis facilisis. Fringilla ac tempus tristique lorem felis. Eu gravida mattis ut pellentesque risus ac sed. Aliquam nunc nullam sapien sed. Volutpat, mollis sem purus viverra lorem tellus cursus felis.</p>
+    @component('_partials.iframe', ["height" => "200px; "])
+    <div class="px-4 py-8 w-full h-full sm:w-1/2 md:w-1/2 bg-white">
+        <div class="mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
+             <p class="font-normal text-sm text-gray-500 p-0 m-0 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, amet et elementum, egestas diam ut convallis facilisis. Fringilla ac tempus tristique lorem felis. Eu gravida mattis ut pellentesque risus ac sed.</p>
+        </div>
     </div>
+    @endcomponent
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">P1</p>
         <p class="text-sm text-justify m-0">Used for long text<br>Type Inter | 14 px | Regular</p>
     </div>
 </div>
-
-<!--@component('_partials.iframe', ["height" => "114px; "])
-<div class="px-4 py-8 bg-white">
-
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row szm:items-end sm:justify-around">
-        <button class="btn btn-dark" type="button">
-            Button
-        </button>
-    </div>
-
-</div>
-@endcomponent
-
 ``` html
-<button class="btn btn-dark" type="button">
-    Button asdsad
-</button>
+<p class="font-normal text-sm text-gray-500 p-0 m-0 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, amet et elementum, egestas diam ut convallis facilisis. Fringilla ac tempus tristique lorem felis. Eu gravida mattis ut pellentesque risus ac sed.</p>
 ```
 
--->

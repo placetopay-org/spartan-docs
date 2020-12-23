@@ -189,22 +189,26 @@ The colors will reinforce the central idea of ​​alert home.
 
 ### Success {#alerts-notifications-success}
 
-<div class="bg-green-50 border-l-4 border-green-400 p-4">
-  <div class="flex items-center">
-    <div class="flex-shrink-0">
-        <svg class="h-5 w-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="ml-3">
-      <p class="text-sm text-green-700">
-        You have no credits left.
-        <a href="#" class="font-medium underline text-green-700 hover:text-green-600">
-          Upgrade your account to add more credits.
-        </a>
-      </p>
+@component('_partials.iframe', ["height" => "114px; "])
+<div class="px-4 py-8 bg-white">
+  <div class="bg-green-50 border-l-4 border-green-400 p-4">
+    <div class="flex items-center">
+      <div class="flex-shrink-0">
+          <svg class="h-5 w-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm text-green-700">
+          You have no credits left.
+          <a href="#" class="font-medium underline text-green-700 hover:text-green-600">
+            Upgrade your account to add more credits.
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
+@endcomponent
 
 ```html
 <div class="bg-green-50 border-l-4 border-green-400 p-4">
@@ -227,22 +231,26 @@ The colors will reinforce the central idea of ​​alert home.
 
 ### Error {#alerts-notifications-error}
 
-<div class="bg-red-50 border-l-4 border-red-400 p-4">
-  <div class="flex items-center">
-    <div class="flex-shrink-0">
-        <svg class="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="ml-3">
-      <p class="text-sm text-red-700">
-        You have no credits left.
-        <a href="#" class="font-medium underline text-red-700 hover:text-red-600">
-          Upgrade your account to add more credits.
-        </a>
-      </p>
+@component('_partials.iframe', ["height" => "114px; "])
+<div class="px-4 py-8 bg-white">
+  <div class="bg-red-50 border-l-4 border-red-400 p-4">
+    <div class="flex items-center">
+      <div class="flex-shrink-0">
+          <svg class="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm text-red-700">
+          You have no credits left.
+          <a href="#" class="font-medium underline text-red-700 hover:text-red-600">
+            Upgrade your account to add more credits.
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
+@endcomponent
 
 ```html
 <div class="bg-red-50 border-l-4 border-red-400 p-4">
@@ -265,22 +273,26 @@ The colors will reinforce the central idea of ​​alert home.
 
 ### Warning {#alerts-notifications-warning}
 
-<div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
-  <div class="flex items-center">
-    <div class="flex-shrink-0">
-        <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="ml-3">
-      <p class="text-sm text-yellow-700">
-        Warning message box
-        <a href="#" class="font-medium underline text-yellow-700 hover:text-yellow-600">
-          example link
-        </a>
-      </p>
+@component('_partials.iframe', ["height" => "114px; "])
+<div class="px-4 py-8 bg-white">
+  <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+    <div class="flex items-center">
+      <div class="flex-shrink-0">
+          <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm text-yellow-700">
+          Warning message box
+          <a href="#" class="font-medium underline text-yellow-700 hover:text-yellow-600">
+            example link
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
+@endcomponent
 
 ```html
 <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
@@ -303,22 +315,26 @@ The colors will reinforce the central idea of ​​alert home.
 
 ### Information {#alerts-notifications-information}
 
-<div class="bg-blue-50 border-l-4 border-blue-400 p-4">
-  <div class="flex items-center">
-    <div class="flex-shrink-0">
-        <svg class="h-5 w-5 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="ml-3">
-      <p class="text-sm text-blue-700">
-        Information message box.
-        <a href="#" class="font-medium underline text-blue-700 hover:text-blue-600">
-          example link.
-        </a>
-      </p>
+@component('_partials.iframe', ["height" => "114px; "])
+<div class="px-4 py-8 bg-white">
+  <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+    <div class="flex items-center">
+      <div class="flex-shrink-0">
+          <svg class="h-5 w-5 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm text-blue-700">
+          Information message box.
+          <a href="#" class="font-medium underline text-blue-700 hover:text-blue-600">
+            example link.
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
+@endcomponent
 
 ```html
 <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
