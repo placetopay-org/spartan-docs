@@ -75,7 +75,7 @@ Is focused in cool gray tones with varying degrees of saturation to allow dark a
   <div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/3 lg:w-1/5">
     <div class="color-box bg-gray-50"></div>
     <p class="font-semibold text-lg my-2">Gray 50</p>
-    <p class="m-0">#FBFDFE</p>
+    <p class="m-0">#F8FAFC</p>
   </div>
 </div>
 

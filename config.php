@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'asset_prefix' => '',
-    'siteName' => 'Get Starter With Spartan',
+    'siteName' => 'Get Started With Spartan',
     'siteDescription' => 'An end-to-end system',
 
     // Algolia DocSearch credentials
