@@ -123,20 +123,3 @@ section: content
 </div>
 @endcomponent
 
-<div style="height:700px;position:fixed;bottom:0;z-index:9999;width:1440px;">
-<div class="grid gap-1 grid-cols-12">
-<div style="background:red;">1</div>
-<div style="background:red;">2</div>
-<div style="background:red;">3</div>
-<div style="background:red;">4</div>
-<div style="background:red;">5</div>
-<div style="background:red;">6</div>
-<div style="background:red;">7</div>
-<div style="background:red;">8</div>
-<div style="background:red;">9</div>
-<div style="background:red;">10</div>
-<div style="background:red;">11</div>
-<div style="background:red;">12</div>
-</div>
-</div>
-
