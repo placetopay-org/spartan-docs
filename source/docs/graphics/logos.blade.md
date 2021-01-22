@@ -34,13 +34,13 @@ Define the positions, variations, clear space, will help to maintained always re
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-8">
     <div class="rounded-md border-2 bg-white border-gray-200 p-8 h-full w-full sm:w-1/2 md:w-1/2 flex justify-between flex-col md:flex-row">
         <div class="bg-gray-100 rounded-lg p-3 m-3">
-            <img alt="illustration" src="/assets/images/spin-logo.svg" class="m-auto block h-16 w-16">
+            <img alt="illustration" src="/assets/img/spin-logo.svg" class="m-auto block h-16 w-16">
         </div>
         <div class="bg-gray-800 rounded-lg p-3 m-3">
-            <img alt="illustration" src="/assets/images/spin-logo-white.svg" class="m-auto block h-16 w-16">
+            <img alt="illustration" src="/assets/img/spin-logo-white.svg" class="m-auto block h-16 w-16">
         </div>
         <div class="bg-orange-400 rounded-lg p-3 m-3">
-            <img alt="illustration" src="/assets/images/spin-logo-white.svg" class="m-auto block h-16 w-16 ">
+            <img alt="illustration" src="/assets/img/spin-logo-white.svg" class="m-auto block h-16 w-16 ">
         </div>
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">

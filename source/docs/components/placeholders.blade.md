@@ -15,7 +15,7 @@ Implemented in the top bar of the dashboard, or applications that have access to
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
-        <img alt="illustration" src="/assets/images/Avatar.png" class="m-auto block">
+        <img alt="illustration" src="/assets/img/Avatar.png" class="m-auto block">
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">Avatar</p>
@@ -25,7 +25,7 @@ Implemented in the top bar of the dashboard, or applications that have access to
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
-        <img alt="illustration" src="/assets/images/Avatar_Default.svg" class="m-auto block">
+        <img alt="illustration" src="/assets/img/Avatar_Default.svg" class="m-auto block">
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">Default</p>
@@ -36,7 +36,7 @@ Implemented in the top bar of the dashboard, or applications that have access to
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-200 p-16 h-full w-full sm:w-1/2 md:w-1/2">
-        <img alt="illustration" src="/assets/images/Avatar_Default Type.svg" class="m-auto block">
+        <img alt="illustration" src="/assets/img/Avatar_Default Type.svg" class="m-auto block">
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
         <p class="font-bold text-lg m-0">Default</p>

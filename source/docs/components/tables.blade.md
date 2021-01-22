@@ -8,7 +8,7 @@ section: content
 # Tables {#tables}
 
 <div class="w-auto max-w-sm m-auto">
-<img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">
+<img src="/assets/img/spartan.png" alt="under construction" class="content-center w-auto h-auto">
 <p class="text-center text-5xl font-medium">Under construction</p>
 </div>
 

@@ -17,14 +17,14 @@
             </div>
         </div>
 
-        <img src="/assets/images/PicHomeSpartan.svg" alt="{{ $page->siteName }} large logo" class="sm:w-1/2  md:w-2/5 lg:w-2/5  mx-auto mb-6 lg:mb-0 ">
+        <img src="/assets/img/PicHomeSpartan.svg" alt="{{ $page->siteName }} large logo" class="sm:w-1/2  md:w-2/5 lg:w-2/5  mx-auto mb-6 lg:mb-0 ">
     </div>
 
     <hr class="block my-8 border lg:hidden">
 
     <div class="md:flex -mx-2 -mx-4">
         <div class="mb-8 mx-3 px-2 md:w-1/3">
-            <img src="/assets/images/brackets-curly-regular.svg" class="h-12 w-12 fill-current" alt="window icon">
+            <img src="/assets/img/brackets-curly-regular.svg" class="h-12 w-12 fill-current" alt="window icon">
 
             <h3 id="intro-laravel" class="text-2xl text-gray-700 mb-0">Let´s create a experience journey together</h3>
 
@@ -32,7 +32,7 @@
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
-            <img src="/assets/images/cog-regular.svg" class="h-12 w-12" alt="terminal icon">
+            <img src="/assets/img/cog-regular.svg" class="h-12 w-12" alt="terminal icon">
 
             <h3 id="intro-markdown" class="text-2xl text-gray-700 mb-0">Spartan a powerfull tool</h3>
 
@@ -40,7 +40,7 @@
         </div>
 
         <div class="mx-3 px-2 md:w-1/3">
-            <img src="/assets/images/layer-group-regular.svg" class="h-12 w-12" alt="stack icon">
+            <img src="/assets/img/layer-group-regular.svg" class="h-12 w-12" alt="stack icon">
 
             <h3 id="intro-mix" class="text-2xl text-gray-700 mb-0">Strong foundation</h3>
 
