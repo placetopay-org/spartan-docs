@@ -17,7 +17,7 @@ Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork.
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-3/5">
-        <img src="/assets/images/grid1.png" alt="10 columns" class="w-full m-auto block">
+        <img src="{{ url('/assets/images/grid1.png') }}" alt="10 columns" class="w-full m-auto block">
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-2/5">
         <p class="font-bold text-lg m-0">Desktop HD</p>
@@ -33,7 +33,7 @@ Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork.
 
 <div class="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between content-start mb-5">
     <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-3/5">
-        <img src="/assets/images/grid2.png" alt="Elements" class="w-full m-auto block">
+        <img src="{{ url('/assets/images/grid2.png') }}" alt="Elements" class="w-full m-auto block">
     </div>
     <div class="ml-0 sm:ml-6 w-full sm:w-2/5">
         <p class="font-bold text-lg m-0">Elements</p>

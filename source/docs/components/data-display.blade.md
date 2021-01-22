@@ -8,7 +8,7 @@ section: content
 # Data display {#data-display}
 
 <div class="w-auto max-w-sm m-auto">
-<img src="/assets/images/spartan.png" alt="under construction" class="content-center w-auto h-auto">
+<img src="{{ url('/assets/images/spartan.png') }}" alt="under construction" class="content-center w-auto h-auto">
 <p class="text-center text-5xl font-medium">Under construction</p>
 </div>
 

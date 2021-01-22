@@ -29,7 +29,7 @@ Space for the container either for login, registration, password change etc.
                 <a class="m-5 text-gray-700 text-sm" href="" target="_blank">Login</a>
                 <a class="m-5 text-gray-700 text-sm" href="" target="_blank">Registro</a>
             </div>
-            <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+            <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
             <div class="border-solid border-2 border-gray-200 w-3/4 block m-auto h-64 rounded-md my-8">
             </div>  
             <div class="flex flex-col sm:flex-row justify-around">
@@ -48,7 +48,7 @@ Space for the container either for login, registration, password change etc.
         <a class="m-5 text-gray-700 text-sm" href="" target="_blank">Login</a>
         <a class="m-5 text-gray-700 text-sm" href="" target="_blank">Registro</a>
     </div>
-    <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+    <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
     <div class="border-solid border-2 border-gray-200 w-3/4 block m-auto h-64 rounded-md my-8">
     </div>  
     <div class="flex flex-col sm:flex-row justify-around">
@@ -68,7 +68,7 @@ Seeks to confirm the identity of the user.
 @component('_partials.iframe', ["height" => "600px;"])
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
-            <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+            <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
             <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
                 <div class="w-11/12 block m-auto">
                     <p class="text-center font-semibold mb-4">Log in</p>
@@ -92,7 +92,7 @@ Seeks to confirm the identity of the user.
 
 ```html
 <div class="bg-gray-100 p-5 w-full h-full">
-    <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+    <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
     <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
         <div class="w-11/12 block m-auto">
             <p class="text-center font-semibold mb-4">Log in</p>
@@ -121,7 +121,7 @@ Designed for change your password for security reasons or reset it if you forget
 @component('_partials.iframe', ["height" => "600px;"])
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
-            <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+            <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
             <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
                 <div class="w-11/12 block m-auto">
                     <p class="text-center font-semibold mb-4">Change password</p>
@@ -142,7 +142,7 @@ Designed for change your password for security reasons or reset it if you forget
 
 ```html
 <div class="bg-gray-100 p-5 w-full h-full">
-    <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+    <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
     <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
         <div class="w-11/12 block m-auto">
             <p class="text-center font-semibold mb-4">Change password</p>
@@ -169,7 +169,7 @@ Remember that not everyone using has an account from the start. Lets Make sure t
 @component('_partials.iframe', ["height" => "600px;"])
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
-            <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+            <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
             <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
                 <div class="w-11/12 block m-auto">
                     <p class="text-center font-semibold mb-4">Sign up</p>
@@ -195,7 +195,7 @@ Remember that not everyone using has an account from the start. Lets Make sure t
 
 ```html
 <div class="bg-gray-100 p-5 w-full h-full">
-    <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+    <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
     <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
         <div class="w-11/12 block m-auto">
             <p class="text-center font-semibold mb-4">Sign up</p>
@@ -226,7 +226,7 @@ They are the best tool we have to improve our understanding of what is required.
 @component('_partials.iframe', ["height" => "600px;"])
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div class="bg-gray-100 p-5 w-full h-full">
-            <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+            <img src="{{ ('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
             <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
                 <div class="w-11/12 block m-auto">
                     <p class="text-center font-semibold mb-4">Log in</p>
@@ -266,7 +266,7 @@ They are the best tool we have to improve our understanding of what is required.
 
 ```html
 <div class="bg-gray-100 p-5 w-full h-full">
-    <img src="/assets/images/ptp-logo.svg" alt="logo" class="m-auto block my-4">
+    <img src="{{ url('/assets/images/ptp-logo.svg') }}" alt="logo" class="m-auto block my-4">
     <div class="bg-white block m-auto rounded-md shadow w-3/4 my-8 p-8">
         <div class="w-11/12 block m-auto">
             <p class="text-center font-semibold mb-4">Log in</p>
