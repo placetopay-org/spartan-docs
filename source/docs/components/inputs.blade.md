@@ -31,14 +31,14 @@ section: content
     <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
         <div>
             <label for="description" class="form-label">Textarea Input</label>
-            <textarea id="description" name="description" class="form-input mt-1" rows="3" placeholder="Enter some long form content."></textarea>
+            <textarea id="description" name="description" class="form-textarea mt-1" rows="3" placeholder="Enter some long form content."></textarea>
         </div>
     </div>
 </div>
 @endcomponent
 
 ```html
-    <textarea id="description" name="description" class="form-input mt-1" rows="3" placeholder="Enter some long form content."></textarea>
+    <textarea id="description" name="description" class="form-textarea mt-1" rows="3" placeholder="Enter some long form content."></textarea>
 ```
 
 ## Password {#password}
@@ -157,7 +157,7 @@ section: content
 @endcomponent
 
 ```html
-<select name="country" id="country" class="form-select">
+<select name="country" id="country" class="form-multiselect">
     <option value="">Select an option</option>
     <option value="CO">CO - Colombia</option>
     <option value="EC">EC - Ecuador</option>

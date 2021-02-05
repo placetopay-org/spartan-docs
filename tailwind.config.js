@@ -11,7 +11,7 @@ module.exports = {
       'source/**/*.vue',
     ],
     options: {
-      whitelist: [
+      safelist: [
         /language/,
         /hljs/,
         /algolia/,
