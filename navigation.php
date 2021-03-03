@@ -1,8 +1,9 @@
 <?php
 
 return [
+    'Installation' => 'docs/installation',
+    'Getting Started' => 'docs/getting-started',
     'Styles' => [
-        'url' => 'docs/styles',
         'children' => [
             'Color system' => 'docs/styles/color-system',
             'Typography' => 'docs/styles/typography',
@@ -10,7 +11,6 @@ return [
         ]
     ],
     'Components' => [
-        'url' => 'docs/components',
         'children' => [
             'Buttons' => 'docs/components/buttons',
             'Inputs' => 'docs/components/inputs',
@@ -27,7 +27,6 @@ return [
         ]
     ],
     'Icons & Illustrations' => [
-        'url' => 'docs/graphics',
         'children' => [
             'Icons' => 'docs/graphics/icons',
             'Logos' => 'docs/graphics/logos',

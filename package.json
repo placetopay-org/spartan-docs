@@ -8,8 +8,9 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "@placetopay/spartan": "^2.0.0-rc2",
+        "@placetopay/spartan": "^2.0.0-rc3",
         "@tailwindcss/postcss7-compat": "^2.0.2",
+        "@tailwindcss/typography": "^0.4.0",
         "autoprefixer": "^9.8.6",
         "cross-env": "^3.2.3",
         "docsearch.js": "^2.6.2",

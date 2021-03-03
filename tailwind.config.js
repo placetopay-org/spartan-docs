@@ -20,32 +20,6 @@ module.exports = {
   },
   theme: {
     extend: {
-      /* fontFamily: {
-        sans: [
-          'Nunito Sans'
-        ],
-        mono: [
-          'monospace',
-        ],
-      },
-      lineHeight: {
-        normal: '1.6',
-        loose: '1.75',
-      }, */
-      colors: {
-        gray: {
-            '50': '#f8fafc',
-            '100': '#f1f5f9',
-            '200': '#e2e8f0',
-            '300': '#cfd8e3',
-            '400': '#97a6ba',
-            '500': '#64748b',
-            '600': '#475569',
-            '700': '#364152',
-            '800': '#27303f',
-            '900': '#1a202e',
-        }
-      },
       maxWidth: {
         none: 'none',
         '7xl': '80rem',
@@ -59,18 +33,6 @@ module.exports = {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
       }
     },
-    fontSize: {
-      'xs': '.8rem',
-      'sm': '.925rem',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.25rem',
-      '2xl': '1.5rem',
-      '3xl': '1.75rem',
-      '4xl': '2.125rem',
-      '5xl': '2.625rem',
-      '6xl': '10rem',
-    },
   },
   variants: {
     borderRadius: ['responsive', 'focus'],
@@ -78,6 +40,7 @@ module.exports = {
     width: ['responsive', 'focus']
   },
   plugins: [
+    require('@tailwindcss/typography'),
     function({ addUtilities }) {
       const newUtilities = {
         '.transition-fast': {
