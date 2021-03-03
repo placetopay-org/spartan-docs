@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Illustrations library">
+        <meta name="description" content="Install Spartan in your project">
 
         <meta property="og:site_name" content="Get Started With Spartan"/>
-        <meta property="og:title" content="Illustrations | Get Started With Spartan"/>
-        <meta property="og:description" content="Illustrations library"/>
-        <meta property="og:url" content="https://placetopay-org.github.io/spartan-docs/docs/graphics/illustrations"/>
+        <meta property="og:title" content="Installation | Get Started With Spartan"/>
+        <meta property="og:description" content="Install Spartan in your project"/>
+        <meta property="og:url" content="https://placetopay-org.github.io/spartan-docs/docs/installation"/>
         <meta property="og:image" content="/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
@@ -17,7 +17,7 @@
         <meta name="twitter:card" content="summary_large_image">
 
         
-        <title>Get Started With Spartan | Illustrations</title>
+        <title>Get Started With Spartan | Installation</title>
 
         <link rel="home" href="https://placetopay-org.github.io/spartan-docs/">
         <link rel="icon" href="/favicon.ico">
@@ -71,7 +71,7 @@
             <li class="pl-4">
             
         <a href="https://placetopay-org.github.io/spartan-docs/docs/installation"
-            class="lvl0   nav-menu__item hover:text-blue-500"
+            class="lvl0  active font-semibold text-blue-500 nav-menu__item hover:text-blue-500"
         >
             Installation
         </a>
@@ -264,7 +264,7 @@
             <li class="pl-4">
             
         <a href="https://placetopay-org.github.io/spartan-docs/docs/graphics/illustrations"
-            class="lvl1  active font-semibold text-blue-500 nav-menu__item hover:text-blue-500"
+            class="lvl1   nav-menu__item hover:text-blue-500"
         >
             Illustrations
         </a>
@@ -276,82 +276,52 @@
         </nav>
 
         <div class="DocSearch-content w-11/12 break-words pb-16 lg:pl-4 flex-grow prose max-w-none" v-pre>
-            <h1 id="illustrations">Panel illustrations</h1>
+            <h1>Installation</h1>
 
-<p>Illustrations are more complex than icons, helps to reinforce the meaning of the text in a simple and creative way. Illustrations capture ideas and bring the user a better experience.</p>
+<h2>Requirements</h2>
 
-<p>Illustration styles have been carefully considered to maintain consistency, are based in a solid colors combined with outlines to keep the design fresh and clean. Flat style makes the message easy to digest and understand.</p>
+<ul>
+<li>Tailwindcss 2.0 <a href="https://tailwindcss.com/docs/installation">Install Tailwindcss 2.0</a></li>
+</ul>
 
-<h2>Illustrations</h2>
+<h2>Installation</h2>
 
-<p>Clean linear type illustration. It must be implemented with the described color palette.</p>
+<p>Install Spartan via npm.</p>
 
-<div class="flex flex-col sm:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2">
-        <img alt="illustration" src="{{ url('/assets/images/illustration-example.svg') }}" class="m-auto block">
-    </div>
-    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
-        <p class="font-bold text-lg m-0">Illustration</p>
-        <p class="text-sm text-justify m-0">Linear type.</p>
-    </div>
-</div>
-
-<!--@component('_partials.iframe', ["height" => "114px;"])-->
-
-<div class="flex flex-col sm:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-1/2 md:w-1/2">
-        <div class="flex flex-col sm:flex-col md:flex-col lg:flex-row">
-            <img alt="illustration" src="{{ url('/assets/images/illustration-example.svg') }}" class="m-auto block">
-            <div class="sm:ml-5">
-                <p class="font-bold">You don't have sites saved<p>
-                <p class="text-xs">Click on the "create" button, complete the basic and operation information and you're done!</p>
-                <button class="btn btn-white">Create</button>
-            </div>
-        </div>
-    </div>
-    <div class="ml-0 sm:ml-6 w-full sm:w-1/2 lg:w-1/2">
-        <p class="font-bold text-lg m-0">How to use</p>
-        <p class="text-sm text-justify m-0">Example of an empty state</p>
-    </div>
-</div>
-
-<!--@endcomponent-->
-
-<pre><code class="language-html">&lt;div class="flex flex-col sm:flex-col md:flex-col lg:flex-row"&gt;
-    &lt;img alt="illustration" src="{{ url('/assets/images/illustration-example.svg') }}" class="m-auto block"&gt;
-    &lt;div class="sm:ml-5"&gt;
-        &lt;p class="font-bold"&gt;You don't have sites saved&lt;p&gt;
-        &lt;p class="text-xs"&gt;Click on the "create" button, complete the basic and operation information and you're done!&lt;/p&gt;
-        &lt;button class="btn btn-white"&gt;Create&lt;/button&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+<pre><code class="language-bash">npm install @placetopay/spartan@latest --save-dev
 </code></pre>
 
-<hr>
+<p>Make sure you have the tailwind's config file <code>tailwind.config.js</code> in your project. In case you dont, generate a new one.</p>
 
-<h2 id="illustrated-icons">Illustrated icons</h2>
+<pre><code class="language-bash">npx tailwindcss init
+</code></pre>
 
-<div class="flex flex-col sm:flex-row justify-between content-start mb-5">
-    <div class="rounded-md border-2 border-gray-200 bg-white p-5 h-full w-full sm:w-3/4 ">
-        <img alt="illustration" src="{{ url('/assets/images/illustration-list.svg') }}" class="m-auto block">
-    </div>
-</div>
+<p>Spartan is used as a tailwindcss <code>preset</code>. You should ddd it to your config file.</p>
 
-<!--
-@component('_partials.iframe', ["height" => "114px;"])
-<div class="px-4 py-8 bg-white">
-    <div class="max-w-3xl mx-auto space-y-4 flex flex-col items-center justify-start sm:space-y-0 sm:flex-row sm:items-end sm:justify-around">
-        
-    </div>
-</div>
-@endcomponent
+<pre><code class="language-javascript">// tailwind.config.js
+module.exports = {
+  presets: [
+    require('@placetopay/spartan')
+  ],
+}
+</code></pre>
 
-```html
-<button class="btn btn-dark" type="button">
-    Button asdsad
-</button>
-```
--->
+<p>That's it, build your Tailwind!</p>
+
+<h2>Troubleshooting</h2>
+
+<p>It is very possible that your project wont support PostCss8 just yet.</p>
+
+<p>If you get any message like this:</p>
+
+<pre><code class="language-bash">Error: PostCSS plugin tailwindcss requires PostCSS 8.
+</code></pre>
+
+<p>You may need to <a href="https://tailwindcss.com/docs/installation#post-css-7-compatibility-build">install the PostCSS 7 compatibility build</a>.</p>
+
+<pre><code class="language-bash">npm uninstall tailwindcss postcss autoprefixer @placetopay/spartan
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9 @placetopay/spartan@latest
+</code></pre>
         </div>
     </div>
 </section>
